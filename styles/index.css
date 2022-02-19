@@ -8,7 +8,7 @@
 
 
 /* Global set */
-.body_set{
+body {
     font-family: "Inter", sans-serif;
     font-size: 16px;
     margin: 0;
@@ -20,7 +20,7 @@
     row-gap: 50px;
     max-width: 1520px;
     margin: 0 auto;
-    padding: 56px 64px 0;
+    padding: 36px 32px;
 }
 
 .background_blur {
