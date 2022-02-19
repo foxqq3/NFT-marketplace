@@ -1,0 +1,37 @@
+/* Global */
+@import 'variable.css';
+
+/* Header */
+@import 'blocks/header.css';
+/* Часть под Хедером */
+@import 'blocks/main_part.css';
+
+
+/* Global set */
+.body_set{
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    margin: 0;
+    background-color: var(--color-gray) ;
+}
+
+.page_set{
+    display:grid;
+    row-gap: 50px;
+    max-width: 1520px;
+    margin: 0 auto;
+    padding: 56px 64px 0;
+}
+
+.background_blur {
+    position: absolute;
+    width:566px;
+    height: 371px;
+    background-color:var(--color-background-pink) ;
+    right:11.97% ;
+    left: 50.79%;
+    top: 244px;
+    border-radius: 50%;
+    opacity: 0.5;
+    filter: blur(280px);
+}
