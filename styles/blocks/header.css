@@ -69,7 +69,7 @@
   }
   
   .header__item-link:active {
-    color: var(--color-white);
+    color: var(--color-light-1);
   }
 }
 
@@ -87,6 +87,6 @@
     border-radius: 8px;
     padding: 12px;
     font-family: inherit;
-    background-color: var(--color-white);
+    background-color: var(--color-light-1);
   }
 }

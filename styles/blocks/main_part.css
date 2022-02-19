@@ -1,5 +1,127 @@
-.main_part {
-    height: 300px;
-    outline: 1px solid gray;
-    margin-top: 30px;
+.main {
+  margin-top: 56px;
+}
+
+.main__first-part {
+  box-sizing: border-box;
+  border-bottom: 1px solid var(--color-light-4);
+  padding-bottom: 57px;
+}
+
+.main__upper-title {
+  margin: 0 0 24px 0;
+  height: 21px;
+  font-size: 14px;
+  text-transform: uppercase;
+  line-height: 21px;
+  font-weight: 500;
+  color: var(--color-dark-4);
+}
+
+.main__title {
+  max-width: 253px;
+  margin: 0 0 24px 0;
+  font-weight: 400;
+  font-size: 48px;
+  color: var(--color-dark-1);
+}
+
+.main__title::after {
+  content: "Trade NFTs free";
+}
+
+.main__under-title {
+  margin: 0 0 32px 0;
+  max-width: 253px;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 33px;
+  color: var(--color-dark-2);
+}
+
+.main__under-title::after {
+  content: "The world’s highest rated marketplace";
+}
+
+.main__btn-explore {
+  background-color: var(--color-green);
+  margin-right: 16px;
+}
+
+.main__btn-create {
+  background-color: var(--color-light-1);
+}
+
+/* ПОФИКСИТЬ Расстояние между кнопками */
+
+/* Second block */
+
+.main__second-part {
+  display: grid;
+  grid-template-columns: min-content 1fr;
+  grid-template-rows: 35px auto;
+  column-gap: 24px;
+  box-sizing: border-box;
+  height: 216px;
+  margin-top: 2px;
+  border-top: 1px solid var(--color-light-4);
+  padding-top: 41px;
+}
+
+.main__quote-autor-img {
+  grid-row: 1/3;
+  height: 175px;
+  width: 94px;
+}
+
+.main__quote-autor {
+  margin-top: 16px;
+  height: 19px;
+  font-style: normal;
+  font-weight: 500;
+  color: var(--color-dark-1);
+  line-height: 19px;
+}
+
+.main__quote {
+  max-width: 232px;
+  margin: 10px 0 0 0;
+  line-height: 24px;
+  color: var(--color-dark-2);
+}
+
+.main__quote::after {
+  content: "“NFTwow helped me to turn my art from earning the odd $20, to earning thousands.”";
+}
+
+@media (min-width: 768px) {
+  .main__title {
+    max-width: 340px;
+  }
+  .main__title::after {
+    content: "Trade NFTs with zero fees";
+  }
+
+  .main__under-title {
+    max-width: 340px;
+  }
+
+  .main__under-title::after {
+    content: "We are the world’s highest-rated  online marketplace";
+  }
+
+  .main__btn-create::after {
+    content: " Your Own";
+  }
+
+  .main__quote {
+    max-width: 330px;
+  }
+
+  .main__quote::after {
+    content: "“NFTwow helped me to turn my art from earning the odd $20, to earning over seven figures a year.”";
+  }
+}
+
+@media (min-width: 1440px) {
 }

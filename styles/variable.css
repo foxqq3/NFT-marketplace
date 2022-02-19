@@ -1,7 +1,11 @@
 :root {
     --color-gray: #EEEEEE;
     --color-dark-1: #111111;
+    --color-dark-2: #555555;
     --color-dark-4: #999999;
-    --color-white:white;
-    --color-background-pink: #ff42ca;
+    --color-light-1:#FFFFFF;
+    --color-light-4: #CCCCCC;
+    --color-background-pink: #FF42CA;
+    --color-green:#42FFD2;
+
 }

@@ -17,7 +17,7 @@ body {
 
 .page_set{
     display:grid;
-    row-gap: 50px;
+    /* row-gap: 50px; */
     max-width: 1520px;
     margin: 0 auto;
     padding: 36px 32px;
@@ -34,4 +34,16 @@ body {
     border-radius: 50%;
     opacity: 0.5;
     filter: blur(280px);
+}
+
+.btn-form {
+    font-family: inherit;
+    height: 40px;
+    border:none;
+    border-radius: 8px;
+    font-weight: 500;
+    line-height: 19px;
+    font-size: inherit;
+    padding: 12px;
+    color:var(--color-dark-1);
 }
