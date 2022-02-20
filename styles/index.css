@@ -37,7 +37,7 @@ body {
     filter: blur(280px);
 }
 
-.btn-form {
+.btn {
     font-family: inherit;
     height: 40px;
     border:none;
@@ -47,4 +47,6 @@ body {
     font-size: inherit;
     padding: 12px;
     color:var(--color-dark-1);
+    cursor: pointer;
+    transition: all 0.15ms;
 }
