@@ -50,6 +50,12 @@
 .main__btn-explore {
   background-color: var(--color-green);
   margin-right: 16px;
+  transition: background-color 0.15ms;
+  cursor: pointer;
+}
+
+.main__btn-explore:hover {
+  background-color: var(--color-green-60);
 }
 
 .main__btn-create {
