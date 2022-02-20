@@ -1,93 +1,90 @@
 /* Global */
-@import 'variable.css';
+@import "variable.css";
 
 /* Header */
-@import 'blocks/header.css';
-/* Часть под Хедером */
-@import 'blocks/main_part.css';
-@import 'blocks/content.css';
-
+@import "blocks/header.css";
+@import "blocks/main_part.css";
+@import "blocks/content-nft.css";
+@import "blocks/content-drops.css";
 
 /* Global set */
 body {
-    font-family: "Inter", sans-serif;
-    font-size: 16px;
-    margin: 0;
-    background-color: var(--color-light-2) ;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  margin: 0;
+  background-color: var(--color-light-2);
 }
 
-.page_set{
-    display:grid;
-    /* row-gap: 50px; */
-    max-width: 1520px;
-    margin: 0 auto;
-    padding: 36px 32px;
+.page_set {
+  display: grid;
+  /* row-gap: 50px; */
+  max-width: 1520px;
+  margin: 0 auto;
+  padding: 36px 32px;
 }
 
 .background_blur {
-    position: absolute;
-    width:566px;
-    height: 371px;
-    background-color:var(--color-background-pink) ;
-    right:11.97% ;
-    left: 50.79%;
-    top: 244px;
-    border-radius: 50%;
-    opacity: 0.5;
-    filter: blur(280px);
+  position: absolute;
+  width: 566px;
+  height: 371px;
+  background-color: var(--color-background-pink);
+  right: 11.97%;
+  left: 50.79%;
+  top: 244px;
+  border-radius: 50%;
+  opacity: 0.5;
+  filter: blur(280px);
 }
 
 .btn {
-    font-family: inherit;
-    height: 40px;
-    border:none;
-    border-radius: 8px;
-    font-weight: 500;
-    line-height: 19px;
-    font-size: inherit;
-    padding: 12px;
-    color:var(--color-dark-1);
-    cursor: pointer;
-    transition: all 0.15ms;
+  font-family: inherit;
+  height: 40px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 500;
+  line-height: 19px;
+  font-size: inherit;
+  padding: 12px;
+  color: var(--color-dark-1);
+  cursor: pointer;
+  transition: all 0.15ms;
 }
 
 .text-tablet {
-    display: none;
+  display: none;
 }
 
 .text-desktop {
-    display: none;
+  display: none;
 }
 
 .grid-tablet-desktop {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .text-tablet {
+    display: inline;
+  }
+
+  .text-mobile {
     display: none;
+  }
+
+  .grid-tablet-desktop {
+    display: grid;
+  }
 }
 
-@media (min-width: 768px) { 
-    .text-tablet {
-        display: inline;
-    }
+@media (min-width: 1440px) {
+  .text-desktop {
+    display: inline;
+  }
+  .text-mobile-tablet {
+    display: none;
+  }
 
-    .text-mobile {
-        display: none;
-    }
-
-    .grid-tablet-desktop {
-        display: grid;
-    }
-}
-
-
-
-@media (min-width: 1440px) { 
-    .text-desktop {
-        display: inline;
-    }
-    .text-mobile-tablet{
-        display: none;
-    }
-
-    .text-mobile {
-        display: none;
-    }
+  .text-mobile {
+    display: none;
+  }
 }

@@ -1,4 +1,4 @@
-.content__nft-tile {
+.content-nft__tile {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 32px min-content 1fr 40px;
@@ -6,15 +6,15 @@
   column-gap: 8px;
   background-color: var(--color-light-1);
   border-radius: 8px;
-  padding: 32px;
+  padding: 30px;
 }
 
-.content__nft-tiles-icon {
+.content-nft__tile-icon {
   height: 32px;
   width: 32px;
 }
 
-.content__nft-tiles-title {
+.content-nft__tile-title {
   margin: 0;
   font-weight: 500;
   font-size: 22px;
@@ -22,19 +22,19 @@
   color: var(--color-dark-1);
 }
 
-.content__nft-tiles-text {
+.content-nft__tile-text {
   margin: 0;
   line-height: 24px;
+  max-width: 294px;
   color: var(--color-dark-2);
 }
 
-.content__btn {
+.content-nft__btn {
   margin-right: auto;
   background-color: var(--color-light-2);
 }
 
-
-.content__nft-tiles-zephir-img {
+.content-nft__tile-img {
   margin: auto;
   grid-row: 1/5;
   grid-column: 2;
@@ -43,21 +43,23 @@
 }
 
 @media (min-width: 768px) {
-  
-  .content__nft-tiles-container {
-    display:grid;
+  .content-nft {
+    display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 24px;
   }
 
-  
-
-  .content__nft-tiles {
+  .content-nft__nft-tile {
     grid-template-rows: 32px 33px auto 40px;
   }
 
+  .content-nft__tile {
+    padding: 32px;
+  }
 }
 
 @media (min-width: 1440px) {
-  /* Добавление второго тайла */
+  .content-nft__tile {
+    column-gap: 32px;
+  }
 }

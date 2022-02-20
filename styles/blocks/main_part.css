@@ -88,7 +88,6 @@
   color: var(--color-dark-2);
 }
 
-
 @media (min-width: 768px) {
   .main__title {
     max-width: 340px;
@@ -101,7 +100,6 @@
   .main__quote {
     max-width: 330px;
   }
-
 }
 
 @media (min-width: 1440px) {
