@@ -1,0 +1,69 @@
+.content__nft-tiles-claim {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 32px min-content 1fr 40px;
+    row-gap: 16px;
+    column-gap: 16px;
+    background-color: var(--color-light-1);
+    border-radius: 8px;
+    padding: 32px;
+
+}
+
+.content__nft-tiles-claim-icon {
+    height: 32px;
+    width: 32px;
+}
+
+.content__nft-tiles-claim-title {
+    margin: 0;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 33px;
+    color: var(--color-dark-1);  
+}
+
+.content__nft-tiles-claim-title::after {
+    content: "Claim a Free NFT";
+}
+
+.content__nft-tiles-claim-text {
+    margin: 0;
+    line-height: 24px;
+    color: var(--color-dark-2);
+}
+
+.content__btn-claim {
+    background-color: var(--color-light-2);
+    width: 106px;
+}
+
+.content__nft-tiles-claim-text::after {
+    content: "New members can claim a free NFT by creator Cyle Sim.";
+}
+
+.content__nft-tiles-claim-zephir-img {  
+   margin: auto;
+    grid-row: 1/5;
+   grid-column: 2;
+    width: 127px;
+    height: 282px;
+}
+
+@media (min-width: 768px) {
+
+    .content__nft-tiles-claim {
+        grid-template-rows: 32px 33px auto 40px;
+    }
+
+    .content__nft-tiles-claim-title::after {
+        content: "Claim a Free Limited NFT";
+    }
+    .content__nft-tiles-claim-text::after {
+        content: "New members who sign up between 3/5 and 3/11 can claim a free NFT by creator Cyle Sim.";
+    }  
+}
+
+@media (min-width: 1440px) {
+    /* Добавление второго тайла */
+}

@@ -43,6 +43,10 @@
   content: "The world’s highest rated marketplace";
 }
 
+.main__btn-case {
+  display: flex;
+}
+
 .main__btn-explore {
   background-color: var(--color-green);
   margin-right: 16px;
@@ -51,8 +55,6 @@
 .main__btn-create {
   background-color: var(--color-light-1);
 }
-
-/* ПОФИКСИТЬ Расстояние между кнопками */
 
 /* Second block */
 
