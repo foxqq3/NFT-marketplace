@@ -13,12 +13,10 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
-   
   </head>
   <body>
-    
     <div class="page_set">
-       <!-- <div class="background_blur"></div>  -->
+      <!-- <div class="background_blur"></div>  -->
 
       <div class="header">
         <div class="header__logo">
@@ -44,7 +42,6 @@
               <a href="#Wallet" class="header__item-link">Wallet</a>
             </li>
           </ul>
-
           <img class="header__avatar" src="img/user.png" />
         </div>
       </div>
@@ -52,30 +49,85 @@
       <div class="main">
         <div class="main__first-part">
           <p class="main__upper-title">Welcome</p>
-          <h1 class="main__title"></h1>
-          <h2 class="main__under-title"></h2>
+          <h1 class="main__title">
+            <span class="text-mobile">Trade NFTs free</span>
+            <span class="text-tablet">Trade NFTs with zero fees</span>
+          </h1>
+          <h2 class="main__under-title">
+            <span class="text-mobile"
+              >The world’s highest rated marketplace</span
+            >
+            <span class="text-tablet"
+              >We are the world’s highest-rated online marketplace</span
+            >
+          </h2>
           <div class="main__btn-case">
-            <button class="btn main__btn-explore" type="button">Explore NFTs</button>
-            <button class="btn main__btn-create" type="button">Create</button>
+            <button class="btn main__btn-explore" type="button">
+              Explore NFTs
+            </button>
+            <button class="btn main__btn-create" type="button">
+              Create<span class="text-tablet"> Your Own</span>
+            </button>
           </div>
         </div>
         <div class="main__second-part">
           <img class="main__quote-autor-img" src="img/jess.png" />
           <cite class="main__quote-autor">Jess Young</cite>
-          <blockquote class="main__quote"></blockquote>
+          <blockquote class="main__quote">
+            <span class="text-mobile"
+              >“NFTwow helped me to turn my art from earning the odd $20, to
+              earning thousands.”</span
+            >
+            <span class="text-tablet"
+              >“NFTwow helped me to turn my art from earning the odd $20, to
+              earning over seven figures a year.”</span
+            >
+          </blockquote>
         </div>
       </div>
 
       <div class="content">
-        <div class="content__nft-tiles">
-          <div class="content__nft-tiles-claim">
-            <img class="content__nft-tiles-claim-icon" src="img/icon_2.png" />
-            <p class="content__nft-tiles-claim-title"></p>
-            <p class="content__nft-tiles-claim-text"></p>
-            <button class="btn content__btn-claim">Claim Now</button>
+        <div class="content__nft-tiles-container">
+          <div class="content__nft-tile">
+            <img class="content__nft-tiles-icon" src="img/icon_2.png" />
+            <p class="content__nft-tiles-title">
+              <span class="text-mobile-tablet">Claim a Free NFT</span>
+              <span class="text-desktop">Claim a Free Limited NFT</span>
+            </p>
+            <p class="content__nft-tiles-text">
+              <span class="text-mobile-tablet"
+                >New members can claim a free NFT by creator Cyle Sim.</span
+              >
+              <span class="text-desktop"
+                >New members who sign up between 3/5 and 3/11 can claim a free
+                NFT by creator Cyle Sim.</span
+              >
+            </p>
+            <button class="btn content__btn">Claim Now</button>
             <img
-              class="content__nft-tiles-claim-zephir-img"
+              class="content__nft-tiles-zephir-img"
               src="img/zephir.png"
+            />
+          </div>
+          
+          <div class="content__nft-tile grid-tablet-desktop">
+            <img class="content__nft-tiles-icon" src="img/icon_1.png" />
+            <p class="content__nft-tiles-title">
+              <span class="text-mobile-tablet">Finance 0% APR</span>
+              <span class="text-desktop">Finance with 0% APR</span>
+            </p>
+            <p class="content__nft-tiles-text">
+              <span class="text-mobile-tablet"
+                >Partnering Zlamra you can fund NFT investments without fees</span
+              >
+              <span class="text-desktop"
+                >We have partnered with Zlamra to allow you to finance your NFT investments with zero fees.</span
+              >
+            </p>
+            <button class="btn content__btn">Learn More</button>
+            <img
+              class="content__nft-tiles-zephir-img"
+              src="img/hand.png"
             />
           </div>
         </div>

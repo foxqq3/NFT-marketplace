@@ -26,10 +26,6 @@
   color: var(--color-dark-1);
 }
 
-.main__title::after {
-  content: "Trade NFTs free";
-}
-
 .main__under-title {
   margin: 0 0 32px 0;
   max-width: 253px;
@@ -37,10 +33,6 @@
   font-weight: 400;
   line-height: 33px;
   color: var(--color-dark-2);
-}
-
-.main__under-title::after {
-  content: "The world’s highest rated marketplace";
 }
 
 .main__btn-case {
@@ -96,37 +88,20 @@
   color: var(--color-dark-2);
 }
 
-.main__quote::after {
-  content: "“NFTwow helped me to turn my art from earning the odd $20, to earning thousands.”";
-}
 
 @media (min-width: 768px) {
   .main__title {
     max-width: 340px;
-  }
-  .main__title::after {
-    content: "Trade NFTs with zero fees";
   }
 
   .main__under-title {
     max-width: 340px;
   }
 
-  .main__under-title::after {
-    content: "We are the world’s highest-rated  online marketplace";
-  }
-
-  .main__btn-create::after {
-    content: " Your Own";
-  }
-
   .main__quote {
     max-width: 330px;
   }
 
-  .main__quote::after {
-    content: "“NFTwow helped me to turn my art from earning the odd $20, to earning over seven figures a year.”";
-  }
 }
 
 @media (min-width: 1440px) {

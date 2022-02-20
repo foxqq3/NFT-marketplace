@@ -50,3 +50,44 @@ body {
     cursor: pointer;
     transition: all 0.15ms;
 }
+
+.text-tablet {
+    display: none;
+}
+
+.text-desktop {
+    display: none;
+}
+
+.grid-tablet-desktop {
+    display: none;
+}
+
+@media (min-width: 768px) { 
+    .text-tablet {
+        display: inline;
+    }
+
+    .text-mobile {
+        display: none;
+    }
+
+    .grid-tablet-desktop {
+        display: grid;
+    }
+}
+
+
+
+@media (min-width: 1440px) { 
+    .text-desktop {
+        display: inline;
+    }
+    .text-mobile-tablet{
+        display: none;
+    }
+
+    .text-mobile {
+        display: none;
+    }
+}
