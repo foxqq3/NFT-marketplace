@@ -4,36 +4,6 @@
   row-gap: 32px;
 }
 
-.content-drops__title-case {
-  display: grid;
-  grid-template-rows: 33px 24px;
-  grid-template-columns: 1fr auto;
-  row-gap: 16px;
-}
-
-.content-drops__title {
-  margin: 0;
-  height: 33px;
-  font-weight: 500;
-  font-size: 22px;
-  line-height: 33px;
-  color: var(--color-dark-1);
-}
-
-.content-drops__text {
-  margin: 0;
-  height: 24px;
-  line-height: 24px;
-  color: var(--color-dark-2);
-}
-
-.content-drops__btn {
-  margin: auto 0 auto auto;
-  grid-row: 1/3;
-  grid-column: 2;
-  background-color: var(--color-light-1);
-}
-
 .content-drops__tile {
   display: grid;
   grid-template-columns: 1fr 1fr;
