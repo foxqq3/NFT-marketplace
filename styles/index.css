@@ -11,9 +11,11 @@
 
 /* Global set */
 body {
+  margin: 0;
   font-family: "Inter", sans-serif;
   font-size: 16px;
-  margin: 0;
+  line-height: 150%;
+  color: var(--color-dark-1);
   background-color: var(--color-light-2);
 }
 
