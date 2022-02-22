@@ -41,6 +41,7 @@ body {
 }
 
 .btn {
+  box-sizing: border-box;
   font-family: inherit;
   height: 40px;
   border: none;

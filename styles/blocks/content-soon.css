@@ -60,7 +60,7 @@
 
 .content-soon__middle-text-pyramid-img {
     margin-right: 8px;
-    width: 8px;
+    width: 12px;
     height: 20px;
 }
 
@@ -87,6 +87,7 @@
 .content-soon__text-light-2 {
     color: var(--color-light-2);
 }
+
 
 @media (min-width: 768px) {
     .content-soon__tiles {

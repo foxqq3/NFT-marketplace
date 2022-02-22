@@ -12,14 +12,16 @@
   --color-pink-1: #ffd8e6;
   --color-pink-2: #ff42ca;
   --color-pink-3: #ff005c;
-  --color-purple-1: #F2D8FF;
-  --color-purple-2: #AA00FF;
+  --color-purple-1: #f2d8ff;
+  --color-purple-2: #aa00ff;
   --color-green: #42ffd2;
   --color-dark-green: #00a47c;
+  --color-beige: #ffe6d8;
+  --color-blue: #D8ECFF;
+  --color-yellow: #FFF4D8;
   --color-green-60: rgba(66, 255, 210, 0.6);
   --color-gray-60: rgba(227, 227, 220, 0.6);
   --color-black-60: rgba(22, 22, 22, 0.6);
   --color-red-60: rgba(143, 1, 0, 0.6);
   --color-blue-60: rgba(1, 227, 225, 0.6);
-
 }
