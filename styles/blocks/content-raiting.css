@@ -39,7 +39,9 @@
 }
 
 .content__raiting-items {
-  margin-top: 32px;
+  margin: 32px 0 0;
+  list-style: none;
+  padding: 0;
 }
 
 .content__raiting-item {

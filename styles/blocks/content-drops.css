@@ -1,7 +1,11 @@
 .content-drops {
-  display: grid;
   margin-top: 32px;
-  row-gap: 32px;
+}
+
+.content-drops__tiles {
+  margin: 32px 0 0;
+  list-style: none;
+  padding: 0;
 }
 
 .content-drops__tile {
@@ -68,7 +72,7 @@
   .content-drops__tiles {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    column-gap: 24px;
+    gap: 24px;
   }
 
   .content-drops__tile {
