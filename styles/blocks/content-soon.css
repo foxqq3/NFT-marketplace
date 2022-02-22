@@ -1,28 +1,101 @@
 .content-soon {
-    margin-top: 32px;
+  margin-top: 32px;
 }
 
 .content-soon__tiles {
-    display: grid;
-    gap: 24px;
-    margin: 32px 0 0;
-    padding: 0;
-    list-style: none;
+  display: grid;
+  gap: 24px;
+  margin: 32px 0 0;
+  padding: 0;
+  list-style: none;
 }
 
 .content-soon__tile {
-    position: relative;
-    border-radius: 8px;
+  position: relative;
+  border-radius: 8px;
 }
 
 .content-soon__tile-img {
-    width: 100%;
-    border-radius: 8px;
+  width: 100%;
+  border-radius: 8px;
 }
 
 .content-soon__info {
-    display: grid;
-    row-gap: 12px;
+  display: grid;
+  row-gap: 12px;
+  position: absolute;
+  box-sizing: border-box;
+  bottom: 0;
+  width: 100%;
+  padding: 24px;
+  height: 128px;
+  border-radius: 0 0 8px 8px;
+  background: var(--color-gray-60);
+  backdrop-filter: blur(12px);
+}
+
+.content-soon__text-case {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content-soon__top-text {
+  margin: 0;
+  height: 16px;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 500;
+  line-height: 16px;
+}
+
+.content-soon__middle-text {
+  margin: 0;
+  line-height: 20px;
+  font-weight: 500;
+}
+
+.content-soon__middle-text-pyramid {
+  display: flex;
+}
+
+.content-soon__middle-text-pyramid-img {
+  margin-right: 8px;
+  width: 12px;
+  height: 20px;
+}
+
+.content-soon__bottom-text {
+  margin: 0;
+  height: 20px;
+  line-height: 20px;
+  color: var(--color-dark-3);
+}
+
+/* Question about color */
+.content-soon__text-green {
+  color: var(--color-green);
+}
+
+.content-soon__info-background-color-black {
+  background-color: var(--color-black-60);
+}
+
+.content-soon__text-light-1 {
+  color: var(--color-light-1);
+}
+
+.content-soon__text-light-2 {
+  color: var(--color-light-2);
+}
+
+/* set for collections*/
+/* Question about color */
+
+.content-learn {
+    margin-top: 32px;
+}
+
+.content-learn__info {
     position: absolute;
     box-sizing: border-box;
     bottom: 0;
@@ -30,85 +103,50 @@
     padding: 24px;
     height: 128px;
     border-radius: 0 0 8px 8px;
-    background: var(--color-gray-60);
+    background: var(--color-purple-60);
     backdrop-filter: blur(12px);
-}
+  }
 
-.content-soon__text-case  {
-    display:flex;
-    justify-content: space-between;
-}
+  .content-learn__bottom-text {
+      margin: 12px 0 0;
+      color: var(--color-light-1);
+  }
 
-.content-soon__top-text {
-    margin: 0;
-    height: 16px;
-    font-size: 12px;
-    text-transform: uppercase;
-    font-weight: 500;
-    line-height: 16px;
-}
-
-.content-soon__middle-text {
-    margin: 0;
-    line-height: 20px;
-    font-weight: 500;
-}
-
-.content-soon__middle-text-pyramid {
-    display: flex;
-}
-
-.content-soon__middle-text-pyramid-img {
-    margin-right: 8px;
-    width: 12px;
-    height: 20px;
-}
-
-.content-soon__bottom-text {
-    margin: 0;
-    height: 20px;
-    line-height: 20px;
-    color: var(--color-dark-3);
-}
-
-/* Question about color */
-.content-soon__text-green {
-    color: var(--color-green);
-}
-
-.content-soon__info-background-color-red {
-    background-color: var(--color-red-60);
-}
-
-.content-soon__text-light-1 {
-    color: var(--color-light-1);
-}
-
-.content-soon__text-light-2 {
-    color: var(--color-light-2);
-}
-
-
-@media (min-width: 768px) {
-    .content-soon__tiles {
-        grid-template-columns: 1fr 1fr;
-    }
-
-    /* Question about color */
-    .content-soon__info-background-color-blue {
-    background-color: var(--color-blue-60);
-    }
-  
-    .content-soon__info-background-color-black {
-        background-color: var(--color-black-60);
-        }
-
+  .content-learn__info-background-color-beige {
+    background-color: var(--color-beige-60);
   }
   
-  @media (min-width: 1440px) {
-    .content-soon__tiles {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        column-gap: 24px;
-    }
-    }
+
+@media (min-width: 768px) {
+  .content-soon__tiles {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  /* Question about color */
+  .content-soon__info-background-color-blue {
+    background-color: var(--color-blue-60);
+  }
+
+  .content-soon__info-background-color-red {
+    background-color: var(--color-red-60);
+  }
+
+  .content-learn__info-background-color-dark-green {
+    background-color: var(--color-dark-green-60);
+  }
+
+  .content-learn__info-background-color-dark-blue {
+    background-color: var(--color-dark-blue-60);
+  }
+
+}
+
+
+
+@media (min-width: 1440px) {
+  .content-soon__tiles {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 24px;
+  }
+}
