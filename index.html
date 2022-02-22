@@ -50,14 +50,14 @@
         <div class="main__first-part">
           <p class="main__upper-title">Welcome</p>
           <h1 class="main__title">
-            <span class="text-mobile">Trade NFTs free</span>
-            <span class="text-tablet">Trade NFTs with zero fees</span>
+            <span class="hide-tablet-desktop-inline">Trade NFTs free</span>
+            <span class="hide-mobile-inline">Trade NFTs with zero fees</span>
           </h1>
           <h2 class="main__under-title">
-            <span class="text-mobile"
+            <span class="hide-tablet-desktop-inline"
               >The world’s highest rated marketplace</span
             >
-            <span class="text-tablet"
+            <span class="hide-mobile-inline"
               >We are the world’s highest-rated online marketplace</span
             >
           </h2>
@@ -66,7 +66,7 @@
               Explore NFTs
             </button>
             <button class="btn main__btn-create" type="button">
-              Create<span class="text-tablet"> Your Own</span>
+              Create<span class="hide-mobile-inline"> Your Own</span>
             </button>
           </div>
         </div>
@@ -74,11 +74,11 @@
           <img class="main__quote-autor-img" src="img/jess.png" />
           <cite class="main__quote-autor">Jess Young</cite>
           <blockquote class="main__quote">
-            <span class="text-mobile"
+            <span class="hide-tablet-desktop-inline"
               >“NFTwow helped me to turn my art from earning the odd $20, to
               earning thousands.”</span
             >
-            <span class="text-tablet"
+            <span class="hide-mobile-inline"
               >“NFTwow helped me to turn my art from earning the odd $20, to
               earning over seven figures a year.”</span
             >
@@ -90,14 +90,16 @@
         <div class="content-nft__tile">
           <img class="content-nft__tile-icon" src="img/icon_2.png" />
           <p class="content-nft__tile-title">
-            <span class="text-mobile-tablet">Claim a Free NFT</span>
-            <span class="text-desktop">Claim a Free Limited NFT</span>
+            <span class="hide-desktop">Claim a Free NFT</span>
+            <span class="hide-mobile-tablet-inline"
+              >Claim a Free Limited NFT</span
+            >
           </p>
           <p class="content-nft__tile-text">
-            <span class="text-mobile-tablet"
+            <span class="hide-desktop"
               >New members can claim a free NFT by creator Cyle Sim.</span
             >
-            <span class="text-desktop"
+            <span class="hide-mobile-tablet-inline"
               >New members who sign up between 3/5 and 3/11 can claim a free NFT
               by creator Cyle Sim.</span
             >
@@ -106,17 +108,17 @@
           <img class="content-nft__tile-img" src="img/zephir.png" />
         </div>
 
-        <div class="content-nft__tile grid-tablet-desktop">
+        <div class="content-nft__tile hide-mobile-grid">
           <img class="content-nft__tile-icon" src="img/icon_1.png" />
           <p class="content-nft__tile-title">
-            <span class="text-mobile-tablet">Finance 0% APR</span>
-            <span class="text-desktop">Finance with 0% APR</span>
+            <span class="hide-desktop">Finance 0% APR</span>
+            <span class="hide-mobile-tablet-inline">Finance with 0% APR</span>
           </p>
           <p class="content-nft__tile-text">
-            <span class="text-mobile-tablet"
+            <span class="hide-desktop"
               >Partnering Zlamra you can fund NFT investments without fees</span
             >
-            <span class="text-desktop"
+            <span class="hide-mobile-tablet-inline"
               >We have partnered with Zlamra to allow you to finance your NFT
               investments with zero fees.</span
             >
@@ -130,8 +132,8 @@
         <div class="section-title-case">
           <h3 class="section-title">Upcoming Drops</h3>
           <p class="section-text">
-            <span class="text-mobile">Be the first.</span>
-            <span class="text-tablet"
+            <span class="hide-tablet-desktop-inline">Be the first.</span>
+            <span class="hide-mobile-inline"
               >Be the first to get your hands on limited NFT drops, exclusive to
               NFTwow.</span
             >
@@ -142,11 +144,11 @@
           <div class="content-drops__tile">
             <p class="content-drops__tile-title">CHARBlobs</p>
             <p class="content-drops__tile-text">
-              <span class="text-mobile-tablet"
+              <span class="hide-desktop"
                 >This new collection by Muxhy recreates some of his most famous
                 characters.</span
               >
-              <span class="text-desktop"
+              <span class="hide-mobile-tablet-inline"
                 >This new collection by Muxhy recreates some of his most famous
                 characters in 3D.</span
               >
@@ -155,14 +157,14 @@
             <img class="content-drops__tile-img" src="img/charblobs.png" />
           </div>
 
-          <div class="content-drops__tile grid-tablet-desktop">
+          <div class="content-drops__tile hide-mobile-grid">
             <p class="content-drops__tile-title">Jeanie Tyu</p>
             <p class="content-drops__tile-text">
-              <span class="text-mobile-tablet"
+              <span class="hide-desktop"
                 >Ten artworks will sail on Jeanie Tyu’s exhibition NFTwow in
                 Toky</span
               >
-              <span class="text-desktop"
+              <span class="hide-mobile-tablet-inline"
                 >Artist Jeanie Tyu’s new exhibition in Tokyo consists of ten
                 artworks which will be available for sale on NFTwow.</span
               >
@@ -178,8 +180,8 @@
           <div class="content-raiting__title-case">
             <p class="content-raiting__title">Top & Trending</p>
             <p class="content-raiting__text">
-              <span class="text-mobile-tablet">See what’s hot.</span>
-              <span class="text-desktop"
+              <span class="hide-desktop">See what’s hot.</span>
+              <span class="hide-mobile-tablet-inline"
                 >See what’s hot in the world of non-fungibles.</span
               >
             </p>
@@ -203,13 +205,23 @@
               >
                 +1,095.3%
               </p>
-              <div class="content-raiting__item-lowest-price-container grid-desktop">
+              <div
+                class="content-raiting__item-lowest-price-container hide-mobile-tablet-grid"
+              >
                 <p class="content-raiting__item-price-text">Lowest Price:</p>
-                <img class="content-raiting__item-lowest-price-pyramid" src="img/raiting/pyramid.png">
+                <img
+                  class="content-raiting__item-lowest-price-pyramid"
+                  src="img/raiting/pyramid.png"
+                />
                 <p class="content-raiting__item-price-text">45.2</p>
               </div>
-              <div class="content-raiting__item-price-container grid-desktop">
-                <img class="content-raiting__item-lowest-price-pyramid" src="img/raiting/pyramid.png">
+              <div
+                class="content-raiting__item-price-container hide-mobile-tablet-grid"
+              >
+                <img
+                  class="content-raiting__item-lowest-price-pyramid"
+                  src="img/raiting/pyramid.png"
+                />
                 <p class="content-raiting__item-price-text">87,490.32</p>
               </div>
             </div>
@@ -228,15 +240,25 @@
               <p
                 class="content-raiting__item-percent content-raiting__item-percent-mines"
               >
-              -5.3%
+                -5.3%
               </p>
-              <div class="content-raiting__item-lowest-price-container grid-desktop">
+              <div
+                class="content-raiting__item-lowest-price-container hide-mobile-tablet-grid"
+              >
                 <p class="content-raiting__item-price-text">Lowest Price:</p>
-                <img class="content-raiting__item-lowest-price-pyramid" src="img/raiting/pyramid.png">
+                <img
+                  class="content-raiting__item-lowest-price-pyramid"
+                  src="img/raiting/pyramid.png"
+                />
                 <p class="content-raiting__item-price-text">2.5</p>
               </div>
-              <div class="content-raiting__item-price-container grid-desktop">
-                <img class="content-raiting__item-lowest-price-pyramid" src="img/raiting/pyramid.png">
+              <div
+                class="content-raiting__item-price-container hide-mobile-tablet-grid"
+              >
+                <img
+                  class="content-raiting__item-lowest-price-pyramid"
+                  src="img/raiting/pyramid.png"
+                />
                 <p class="content-raiting__item-price-text">5,984.23</p>
               </div>
             </div>
@@ -255,15 +277,25 @@
               <p
                 class="content-raiting__item-percent content-raiting__item-percent-plus"
               >
-              +19.6%
+                +19.6%
               </p>
-              <div class="content-raiting__item-lowest-price-container grid-desktop">
+              <div
+                class="content-raiting__item-lowest-price-container hide-mobile-tablet-grid"
+              >
                 <p class="content-raiting__item-price-text">Lowest Price:</p>
-                <img class="content-raiting__item-lowest-price-pyramid" src="img/raiting/pyramid.png">
+                <img
+                  class="content-raiting__item-lowest-price-pyramid"
+                  src="img/raiting/pyramid.png"
+                />
                 <p class="content-raiting__item-price-text">19.4</p>
               </div>
-              <div class="content-raiting__item-price-container grid-desktop">
-                <img class="content-raiting__item-lowest-price-pyramid" src="img/raiting/pyramid.png">
+              <div
+                class="content-raiting__item-price-container hide-mobile-tablet-grid"
+              >
+                <img
+                  class="content-raiting__item-lowest-price-pyramid"
+                  src="img/raiting/pyramid.png"
+                />
                 <p class="content-raiting__item-price-text">109,938.11</p>
               </div>
             </div>
@@ -282,15 +314,25 @@
               <p
                 class="content-raiting__item-percent content-raiting__item-percent-mines"
               >
-              -1.9%
+                -1.9%
               </p>
-              <div class="content-raiting__item-lowest-price-container grid-desktop">
+              <div
+                class="content-raiting__item-lowest-price-container hide-mobile-tablet-grid"
+              >
                 <p class="content-raiting__item-price-text">Lowest Price:</p>
-                <img class="content-raiting__item-lowest-price-pyramid" src="img/raiting/pyramid.png">
+                <img
+                  class="content-raiting__item-lowest-price-pyramid"
+                  src="img/raiting/pyramid.png"
+                />
                 <p class="content-raiting__item-price-text">0.7</p>
               </div>
-              <div class="content-raiting__item-price-container grid-desktop">
-                <img class="content-raiting__item-lowest-price-pyramid" src="img/raiting/pyramid.png">
+              <div
+                class="content-raiting__item-price-container hide-mobile-tablet-grid"
+              >
+                <img
+                  class="content-raiting__item-lowest-price-pyramid"
+                  src="img/raiting/pyramid.png"
+                />
                 <p class="content-raiting__item-price-text">65,382.17</p>
               </div>
             </div>
@@ -309,27 +351,37 @@
               <p
                 class="content-raiting__item-percent content-raiting__item-percent-plus"
               >
-              +214.8%
+                +214.8%
               </p>
-              <div class="content-raiting__item-lowest-price-container grid-desktop">
+              <div
+                class="content-raiting__item-lowest-price-container hide-mobile-tablet-grid"
+              >
                 <p class="content-raiting__item-price-text">Lowest Price:</p>
-                <img class="content-raiting__item-lowest-price-pyramid" src="img/raiting/pyramid.png">
+                <img
+                  class="content-raiting__item-lowest-price-pyramid"
+                  src="img/raiting/pyramid.png"
+                />
                 <p class="content-raiting__item-price-text">82.3</p>
               </div>
-              <div class="content-raiting__item-price-container grid-desktop">
-                <img class="content-raiting__item-lowest-price-pyramid" src="img/raiting/pyramid.png">
+              <div
+                class="content-raiting__item-price-container hide-mobile-tablet-grid"
+              >
+                <img
+                  class="content-raiting__item-lowest-price-pyramid"
+                  src="img/raiting/pyramid.png"
+                />
                 <p class="content-raiting__item-price-text">10,980.66</p>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="content-raiting__tile grid-tablet-desktop ">
+        <div class="content-raiting__tile hide-mobile-grid">
           <div class="content-raiting__title-case">
             <p class="content-raiting__title">New & Noteworthy</p>
             <p class="content-raiting__text">
-              <span class="text-mobile-tablet">See what’s up</span>
-              <span class="text-desktop"
+              <span class="hide-desktop">See what’s up</span>
+              <span class="hide-mobile-tablet-inline"
                 >See what’s up and coming this week.</span
               >
             </p>
@@ -351,15 +403,25 @@
               <p
                 class="content-raiting__item-percent content-raiting__item-percent-plus"
               >
-              +33,902.6%
+                +33,902.6%
               </p>
-              <div class="content-raiting__item-lowest-price-container grid-desktop">
+              <div
+                class="content-raiting__item-lowest-price-container hide-mobile-tablet-grid"
+              >
                 <p class="content-raiting__item-price-text">Lowest Price:</p>
-                <img class="content-raiting__item-lowest-price-pyramid" src="img/raiting/pyramid.png">
+                <img
+                  class="content-raiting__item-lowest-price-pyramid"
+                  src="img/raiting/pyramid.png"
+                />
                 <p class="content-raiting__item-price-text">34.7</p>
               </div>
-              <div class="content-raiting__item-price-container grid-desktop">
-                <img class="content-raiting__item-lowest-price-pyramid" src="img/raiting/pyramid.png">
+              <div
+                class="content-raiting__item-price-container hide-mobile-tablet-grid"
+              >
+                <img
+                  class="content-raiting__item-lowest-price-pyramid"
+                  src="img/raiting/pyramid.png"
+                />
                 <p class="content-raiting__item-price-text">11,192.84</p>
               </div>
             </div>
@@ -378,15 +440,25 @@
               <p
                 class="content-raiting__item-percent content-raiting__item-percent-plus"
               >
-              +11,231.4%
+                +11,231.4%
               </p>
-              <div class="content-raiting__item-lowest-price-container grid-desktop">
+              <div
+                class="content-raiting__item-lowest-price-container hide-mobile-tablet-grid"
+              >
                 <p class="content-raiting__item-price-text">Lowest Price:</p>
-                <img class="content-raiting__item-lowest-price-pyramid" src="img/raiting/pyramid.png">
+                <img
+                  class="content-raiting__item-lowest-price-pyramid"
+                  src="img/raiting/pyramid.png"
+                />
                 <p class="content-raiting__item-price-text">1.8</p>
               </div>
-              <div class="content-raiting__item-price-container grid-desktop">
-                <img class="content-raiting__item-lowest-price-pyramid" src="img/raiting/pyramid.png">
+              <div
+                class="content-raiting__item-price-container hide-mobile-tablet-grid"
+              >
+                <img
+                  class="content-raiting__item-lowest-price-pyramid"
+                  src="img/raiting/pyramid.png"
+                />
                 <p class="content-raiting__item-price-text">75,094.33</p>
               </div>
             </div>
@@ -405,15 +477,25 @@
               <p
                 class="content-raiting__item-percent content-raiting__item-percent-plus"
               >
-              +1,982.0%
+                +1,982.0%
               </p>
-              <div class="content-raiting__item-lowest-price-container grid-desktop">
+              <div
+                class="content-raiting__item-lowest-price-container hide-mobile-tablet-grid"
+              >
                 <p class="content-raiting__item-price-text">Lowest Price:</p>
-                <img class="content-raiting__item-lowest-price-pyramid" src="img/raiting/pyramid.png">
+                <img
+                  class="content-raiting__item-lowest-price-pyramid"
+                  src="img/raiting/pyramid.png"
+                />
                 <p class="content-raiting__item-price-text">1.9</p>
               </div>
-              <div class="content-raiting__item-price-container grid-desktop">
-                <img class="content-raiting__item-lowest-price-pyramid" src="img/raiting/pyramid.png">
+              <div
+                class="content-raiting__item-price-container hide-mobile-tablet-grid"
+              >
+                <img
+                  class="content-raiting__item-lowest-price-pyramid"
+                  src="img/raiting/pyramid.png"
+                />
                 <p class="content-raiting__item-price-text">4,908.39</p>
               </div>
             </div>
@@ -432,15 +514,25 @@
               <p
                 class="content-raiting__item-percent content-raiting__item-percent-plus"
               >
-              +709.9%
+                +709.9%
               </p>
-              <div class="content-raiting__item-lowest-price-container grid-desktop">
+              <div
+                class="content-raiting__item-lowest-price-container hide-mobile-tablet-grid"
+              >
                 <p class="content-raiting__item-price-text">Lowest Price:</p>
-                <img class="content-raiting__item-lowest-price-pyramid" src="img/raiting/pyramid.png">
+                <img
+                  class="content-raiting__item-lowest-price-pyramid"
+                  src="img/raiting/pyramid.png"
+                />
                 <p class="content-raiting__item-price-text">10.4</p>
               </div>
-              <div class="content-raiting__item-price-container grid-desktop">
-                <img class="content-raiting__item-lowest-price-pyramid" src="img/raiting/pyramid.png">
+              <div
+                class="content-raiting__item-price-container hide-mobile-tablet-grid"
+              >
+                <img
+                  class="content-raiting__item-lowest-price-pyramid"
+                  src="img/raiting/pyramid.png"
+                />
                 <p class="content-raiting__item-price-text">1,093.84</p>
               </div>
             </div>
@@ -459,15 +551,25 @@
               <p
                 class="content-raiting__item-percent content-raiting__item-percent-plus"
               >
-              +580.3%
+                +580.3%
               </p>
-              <div class="content-raiting__item-lowest-price-container grid-desktop">
+              <div
+                class="content-raiting__item-lowest-price-container hide-mobile-tablet-grid"
+              >
                 <p class="content-raiting__item-price-text">Lowest Price:</p>
-                <img class="content-raiting__item-lowest-price-pyramid" src="img/raiting/pyramid.png">
+                <img
+                  class="content-raiting__item-lowest-price-pyramid"
+                  src="img/raiting/pyramid.png"
+                />
                 <p class="content-raiting__item-price-text">11.4</p>
               </div>
-              <div class="content-raiting__item-price-container grid-desktop">
-                <img class="content-raiting__item-lowest-price-pyramid" src="img/raiting/pyramid.png">
+              <div
+                class="content-raiting__item-price-container hide-mobile-tablet-grid"
+              >
+                <img
+                  class="content-raiting__item-lowest-price-pyramid"
+                  src="img/raiting/pyramid.png"
+                />
                 <p class="content-raiting__item-price-text">4,095.37</p>
               </div>
             </div>
@@ -479,21 +581,139 @@
         <div class="section-title-case">
           <h3 class="section-title">Ending Soon</h3>
           <p class="section-text">
-            <span class="text-mobile">Auctions ending soon.</span>
-            <span class="text-tablet"
+            <span class="hide-tablet-desktop-inline"
+              >Auctions ending soon.</span
+            >
+            <span class="hide-mobile-inline"
               >Be the first to get your hands on limited NFT drops, exclusive to
               NFTwow.</span
             >
           </p>
           <button class="btn section-btn">Explore</button>
         </div>
-        <div class="content-soon__tiles">
-          <div class="content-soon__tile">
+        <ul class="content-soon__tiles">
+          <li class="content-soon__tile">
+            <img
+              class="content-soon__tile-img"
+              src="img/ending_soon/floppy.jpg"
+            />
             <div class="content-soon__info">
-              <p>ghvgjvghj</p>
+              <div class="content-soon__text-case">
+                <p class="content-soon__top-text content-soon__text-green">
+                  Flowitars
+                </p>
+                <p class="content-soon__top-text">Top Bid</p>
+              </div>
+              <div class="content-soon__text-case">
+                <p class="content-soon__middle-text">Floppy</p>
+                <div class="content-soon__middle-text-pyramid">
+                  <img
+                    class="content-soon__middle-text-pyramid-img"
+                    src="img/raiting/pyramid.png"
+                  />
+                  <p class="content-soon__middle-text">2.99 ETH</p>
+                </div>
+              </div>
+              <div class="content-soon__text-case">
+                <p class="content-soon__bottom-text">#12</p>
+                <p class="content-soon__bottom-text">1 day left</p>
+              </div>
             </div>
-          </div>
-        </div>
+          </li>
+
+          <li class="content-soon__tile hide-mobile-block">
+            <img
+              class="content-soon__tile-img"
+              src="img/ending_soon/merlge.jpg"
+            />
+            <div
+              class="content-soon__info content-soon__info-background-color-red content-soon__text-light-1"
+            >
+              <div class="content-soon__text-case">
+                <p class="content-soon__top-text content-soon__text-green">
+                  Anna Kuife
+                </p>
+                <p class="content-soon__top-text">Top Bid</p>
+              </div>
+              <div class="content-soon__text-case content-soon__text-light-1">
+                <p class="content-soon__middle-text">Merlge</p>
+                <div class="content-soon__middle-text-pyramid">
+                  <img
+                    class="content-soon__middle-text-pyramid-img"
+                    src="img/raiting/pyramid.png"
+                  />
+                  <p class="content-soon__middle-text">1.23 ETH</p>
+                </div>
+              </div>
+              <div class="content-soon__text-case content-soon__text-light-2">
+                <p class="content-soon__bottom-text">#8745</p>
+                <p class="content-soon__bottom-text">2 days left</p>
+              </div>
+            </div>
+          </li>
+
+          <li class="content-soon__tile">
+            <img
+              class="content-soon__tile-img"
+              src="img/ending_soon/starr_eyes.jpg"
+            />
+            <div
+              class="content-soon__info content-soon__info-background-color-black content-soon__text-light-1"
+            >
+              <div class="content-soon__text-case">
+                <p class="content-soon__top-text content-soon__text-green">
+                  Musikc
+                </p>
+                <p class="content-soon__top-text">Top Bid</p>
+              </div>
+              <div class="content-soon__text-case content-soon__text-light-1">
+                <p class="content-soon__middle-text">Starr Eyes</p>
+                <div class="content-soon__middle-text-pyramid">
+                  <img
+                    class="content-soon__middle-text-pyramid-img"
+                    src="img/raiting/pyramid.png"
+                  />
+                  <p class="content-soon__middle-text">0.71 ETH</p>
+                </div>
+              </div>
+              <div class="content-soon__text-case content-soon__text-light-2">
+                <p class="content-soon__bottom-text">#192</p>
+                <p class="content-soon__bottom-text">3 days left</p>
+              </div>
+            </div>
+          </li>
+
+          <li class="content-soon__tile hide-mobile-block">
+            <img
+              class="content-soon__tile-img"
+              src="img/ending_soon/help.jpg"
+            />
+            <div
+              class="content-soon__info content-soon__info-background-color-blue"
+            >
+              <div class="content-soon__text-case">
+                <p class="content-soon__top-text content-soon__text-green">
+                  Bloodflow
+                </p>
+                <p class="content-soon__top-text">Top Bid</p>
+              </div>
+              <div class="content-soon__text-case">
+                <p class="content-soon__middle-text">H e l p</p>
+                <div class="content-soon__middle-text-pyramid">
+                  <img
+                    class="content-soon__middle-text-pyramid-img"
+                    src="img/raiting/pyramid.png"
+                  />
+                  <p class="content-soon__middle-text">5.90 ETH</p>
+                </div>
+              </div>
+              <div class="content-soon__text-case">
+                <p class="content-soon__bottom-text">#54</p>
+                <p class="content-soon__bottom-text">5 days left</p>
+              </div>
+            </div>
+          </li>
+        </ul>
       </div>
     </div>
     <script type="module" src="/main.js"></script>

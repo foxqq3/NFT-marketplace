@@ -88,50 +88,54 @@ body {
 
 /* display set */
 
-.text-tablet {
+.hide-mobile-inline {
   display: none;
 }
 
-.text-desktop {
+.hide-mobile-tablet-inline {
   display: none;
 }
 
-.grid-tablet-desktop {
+.hide-mobile-grid {
   display: none;
 }
 
-.grid-desktop {
+.hide-mobile-tablet-grid {
+  display: none;
+}
+
+.hide-mobile-block {
   display: none;
 }
 
 @media (min-width: 768px) {
-  .text-tablet {
+  .hide-mobile-inline {
     display: inline;
   }
 
-  .text-mobile {
+  .hide-tablet-desktop-inline {
     display: none;
   }
 
-  .grid-tablet-desktop {
+  .hide-mobile-grid {
     display: grid;
   }
 
+  .hide-mobile-block {
+    display: block;
+  }
 }
 
 @media (min-width: 1440px) {
-  .text-desktop {
+  .hide-mobile-tablet-inline {
     display: inline;
   }
-  .text-mobile-tablet {
-    display: none;
-  }
 
-  .text-mobile {
+  .hide-desktop {
     display: none;
   }
   
-  .grid-desktop {
+  .hide-mobile-tablet-grid {
     display: grid;
   }
 }
