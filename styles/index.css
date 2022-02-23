@@ -8,6 +8,7 @@
 @import "blocks/content-drops.css";
 @import "blocks/content-raiting.css";
 @import "blocks/content-soon.css";
+@import "blocks/footer.css";
 
 /* Global set */
 body {
@@ -93,11 +94,15 @@ body {
   display: none;
 }
 
-.hide-mobile-tablet-inline {
+.hide-mobile-grid {
   display: none;
 }
 
-.hide-mobile-grid {
+.hide-mobile-block {
+  display: none;
+}
+
+.hide-mobile-tablet-inline {
   display: none;
 }
 
@@ -105,7 +110,7 @@ body {
   display: none;
 }
 
-.hide-mobile-block {
+.hide-mobile-tablet-flex {
   display: none;
 }
 
@@ -114,29 +119,34 @@ body {
     display: inline;
   }
 
-  .hide-tablet-desktop-inline {
-    display: none;
+  .hide-mobile-block {
+    display: block;
   }
+
 
   .hide-mobile-grid {
     display: grid;
   }
 
-  .hide-mobile-block {
-    display: block;
+  .hide-tablet-desktop {
+    display: none;
   }
 }
 
 @media (min-width: 1440px) {
+  .hide-desktop {
+    display: none;
+  }
+
   .hide-mobile-tablet-inline {
     display: inline;
   }
 
-  .hide-desktop {
-    display: none;
-  }
-  
   .hide-mobile-tablet-grid {
     display: grid;
+  }
+
+  .hide-mobile-tablet-flex {
+    display: flex;
   }
 }
