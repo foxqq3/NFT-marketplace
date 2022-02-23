@@ -10,7 +10,14 @@
 @import "blocks/content-soon.css";
 @import "blocks/footer.css";
 
+
+
 /* Global set */
+
+*{
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: "Inter", sans-serif;
