@@ -20,6 +20,12 @@ body {
   background-color: var(--color-light-2);
 }
 
+
+/* Question line height */
+li {display: block;
+line-height: 0;
+}
+
 .page_set {
   display: grid;
   max-width: 1520px;
