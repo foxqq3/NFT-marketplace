@@ -45,13 +45,15 @@
   margin-right: 16px;
 }
 
-.main__btn-explore:hover {
+.btn.main__btn-explore:hover {
   background-color: var(--color-green-60);
 }
 
 .main__btn-create {
   background-color: var(--color-light-1);
 }
+
+
 
 /* Second block */
 
@@ -132,9 +134,11 @@
     border-top: 1px solid var(--color-light-4);
     border-bottom: 1px solid var(--color-light-4);
   }
+  .main-ending__img-sponsors-link {
+    height: 40px;
+  }
   
   .main-ending__img-sponsors {
     height: 40px;
-
   }
 }

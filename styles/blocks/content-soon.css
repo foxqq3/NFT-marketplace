@@ -92,30 +92,29 @@
 /* Question about color */
 
 .content-learn {
-    margin-top: 32px;
+  margin-top: 32px;
 }
 
 .content-learn__info {
-    position: absolute;
-    box-sizing: border-box;
-    bottom: 0;
-    width: 100%;
-    padding: 24px;
-    height: 128px;
-    border-radius: 0 0 8px 8px;
-    background: var(--color-purple-60);
-    backdrop-filter: blur(12px);
-  }
+  position: absolute;
+  box-sizing: border-box;
+  bottom: 0;
+  width: 100%;
+  padding: 24px;
+  height: 128px;
+  border-radius: 0 0 8px 8px;
+  background: var(--color-purple-60);
+  backdrop-filter: blur(12px);
+}
 
-  .content-learn__bottom-text {
-      margin: 12px 0 0;
-      color: var(--color-light-1);
-  }
+.content-learn__bottom-text {
+  margin: 12px 0 0;
+  color: var(--color-light-1);
+}
 
-  .content-learn__info-background-color-beige {
-    background-color: var(--color-beige-60);
-  }
-  
+.content-learn__info-background-color-beige {
+  background-color: var(--color-beige-60);
+}
 
 @media (min-width: 768px) {
   .content-soon__tiles {
@@ -138,15 +137,17 @@
   .content-learn__info-background-color-dark-blue {
     background-color: var(--color-dark-blue-60);
   }
-
 }
-
-
 
 @media (min-width: 1440px) {
   .content-soon__tiles {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     column-gap: 24px;
+  }
+
+  .content-soon__tile:hover {
+    transform: scale(1.05);
+    transition: 300ms;
   }
 }

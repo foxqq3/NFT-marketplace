@@ -22,7 +22,6 @@ body {
 
 .page_set {
   display: grid;
-  /* row-gap: 50px; */
   max-width: 1520px;
   margin: 0 auto;
   padding: 36px 32px;
@@ -54,6 +53,10 @@ body {
   color: var(--color-dark-1);
   cursor: pointer;
   transition: all 0.15ms;
+}
+
+.btn:hover {
+  background-color: var(--color-pink-1);
 }
 
 /* Section set */

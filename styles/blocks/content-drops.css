@@ -91,6 +91,10 @@
   border: 1px solid var(--color-dark-1);
 }
 
+.btn.collections__btn:hover {
+  background-color: var(--color-light-60);
+}
+
 .content-collections__tile-biege {
   background-color: var(--color-beige);
 }
